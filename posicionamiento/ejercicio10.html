@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologías web</title>
+</head>
+<style>
+    *{
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        list-style: circle;
+    }
+    a{
+        color: black;
+    }
+    .tooltip {
+        position: relative;
+        display: inline-block;
+        
+    }
+
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 400px;
+        height: 200px;
+        background-color: rgba(243, 234, 234, 0.952);
+        color: rgba(12, 5, 5, 0.863);
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+    }
+
+</style>
+<body>
+    <h1>Tecnologías web</h1>
+    <p>La naturaleza abierta de la web ofrece increíbles oportunidades para los desarrolladores que desean crear sitios web o aplicaciones online. Para sacar el máximo provecho de las capacidades de la web, necesitas saber cómo usarlas. Explora los enlaces siguientes para aprender más sobre varias tecnologías web.</p>
+    <ul>
+        <li><div class="tooltip"><a href="#" ><strong>HTML</strong></a><span class="tooltiptext"><h1>HTML</h1><p>HyperText Markup Language (HTML) es el lenguaje utilizado para describir y definir el contenido de una página web en un formato bien estructurado.</p></span></div></li>
+        <li><div class="tooltip"><a href="#"><strong>CSS</strong></a><span class="tooltiptext"><h1>CSS</h1><p>Cascading Style Sheets (CSS) u Hojas de estilo en cascada se utilizan para describir el aspecto o presentación del contenido en una página web.</p></span></div></li>
+        <li><div class="tooltip"><a href="#"><strong>JavaScript</strong></a><span class="tooltiptext"><h1>JavaScript</h1><p>JavaScript es el lenguaje de programación que se ejecuta en el navegador y que se utiliza para crear sitios web interactivos y aplicaciones avanzadas para que sean ejecutadas de modo seguro en el navegador.</p></span></div></li>
+    </ul>
+</body>
+</html>

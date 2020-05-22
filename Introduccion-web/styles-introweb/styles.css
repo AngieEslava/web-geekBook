@@ -1,0 +1,18 @@
+body {
+    background-color: #f3f4f5;
+    justify-content: center;
+    padding: 2% 10% 5% 10%;
+}
+h1 {
+    color: blue;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+}

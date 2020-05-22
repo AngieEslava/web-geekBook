@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+<style>
+    *{
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    form{
+        display: inline-block;
+        justify-content: space-between;
+    }
+    section{
+        margin: 0 auto;
+        width: 600px;
+    }
+    input{
+        background-color: white;
+        color: darkgrey;
+    }
+    label{
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        color: rgb(58, 55, 55);
+    }
+    .submit{
+        color: black;
+        font-style: oblique;
+    }
+    
+</style>
+<body>
+    <section>
+        <form action="/signup" method="post">
+            <h1>You've just POSTed to a Pen.</h1>
+            <h3>Values Posted</h3>
+            <label for="firstname">Nombre</label>
+            <input type="text" id="firstname" placeholder="Ada" required><br>
+            <label for="lastname">Apellido</label>
+            <input type="text" id="lastname" placeholder="Lovelace"><br>
+            <label for="mail">Email</label>
+            <input type="mail" id="mail" placeholder="ada@lovelace" required><br>
+            <label for="street">Calle</label>
+            <input type="text" id="street" placeholder="cra 2 # 06-98" required><br>
+            <label for="provincia">Provincia</label>
+            <input type="text" id="provincia" placeholder="Medellín" required><br>
+            <label for="pais">País</label>
+            <input type="text" id="pais" placeholder="Colombia" required><br>
+            <label for="dni">DNI</label>
+            <input type="text" id="dni" placeholder="862369523" required><br>
+            <label for="telephone">Telefono</label>
+            <input type="tel" id="telephone" placeholder="555 55 55" required><br>
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" placeholder="*******" required><br>
+            <label for="password">Confirmar Contraseña</label>
+            <input type="password" id="password" placeholder="*******" required><br>
+            <input class="submit" type="submit">
+            <p>If you're in the editor, Ctrl+shift+5 refresh the preview.</p>
+        </form>
+    </section>
+</body>
+</html>

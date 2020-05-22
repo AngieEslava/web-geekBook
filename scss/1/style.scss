@@ -1,0 +1,46 @@
+body {
+    $colortx: #010101; /* Pasar a variable */
+    color: $colortx;
+    display: flex;
+    $txfont: arial,sans-serif;
+    $pxfont: 18px; /* pasar a dos variables: texto y tamaño de texto */
+    font-size:$pxfont;
+    font-style:$txfont;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+  }
+  .wrapper {
+    $mgwrapper:0 60px;
+    margin: $mgwrapper;
+  }
+  .header {
+    $bgheader: yellow; /* Pasar a variable */
+    $hgheader: 50px; /* Pasar a variable */
+    background:$bgheader;
+    height:$hgheader;
+    padding: 10px 0;
+    box-sizing: border-box;
+  }
+  .main {
+    $bgmain: cyan; /* Pasar a variable */
+    background:$bgmain;
+    flex: 1;
+  }
+  .main__title {
+    color: #fff;
+    font-size: 2.5em;
+  }
+  .main__content p {
+    font-size: 1.1em;
+    line-height: 140%;
+  }
+  .footer {
+    $bgfooter: yellow; /* Pasar a variable */
+    $hgfooter: 50px; /* Pasar a variable */
+    background:$bgfooter;
+    height:$hgfooter;
+    padding: 10px 0;
+    box-sizing: border-box;
+  }
+  

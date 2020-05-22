@@ -1,0 +1,176 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Media Query</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        max-width: 480px;
+        background-color: darkgray;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+        background-color: darkgray;
+        width: 100%;
+    }
+
+    nav {
+        background-color: chartreuse;
+        display: block;
+    }
+
+    main {
+        background-color: yellow;
+    }
+
+    aside {
+        background-color: gray;
+
+    }
+
+    h1,
+    h2,
+    h3 {
+        padding-bottom: 20px;
+    }
+    .cuadro{
+        background-color: aqua;
+        width: 60%;
+    }
+
+    @media all and (max-width: 480px) {
+        * {
+            /* max-width: 1000px; */
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            max-width: 100%;
+            background-color: darkgray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: darkgray;
+        }
+
+        nav {
+            background-color: chartreuse;
+            display: block;
+        }
+
+        main {
+            background-color: yellow;
+        }
+
+        aside {
+            background-color: gray;
+        }
+
+        h1,
+        h2,
+        h3 {
+            padding-bottom: 20px;
+        }
+    }
+
+    @media all and (min-width: 480px) and (max-width: 1000px) {
+        body{
+            max-width: 1000px;
+        }
+        
+        nav {
+            min-width: 300px;
+            max-height: 60px;
+            margin-right: 20px;
+            display: block;
+        }
+
+        section {
+            width: 100%;
+            display: flex;
+            margin-right: 20px;
+        }
+
+        aside {
+            margin-left: 320px;
+            margin-right: 20px;
+        }
+    }
+
+    @media all and (min-width: 1000px) {
+        body{
+            max-width: 100%;
+        }
+        nav {
+            min-width: 200px;
+            max-height: 60px;
+            margin-right: 20px;
+        }
+
+        section {
+            display: flex;
+            margin-right: 20px;
+
+        }
+
+        .container {
+            display: flex;
+            margin-right: 20px;
+        }
+
+        aside {
+            margin-right: 20px;
+        }
+    }
+</style>
+
+<body>
+    <header>
+        <h1>Site name</h1>
+    </header>
+    <section class="container">
+        <section>
+            <nav>
+                <a href="#">link 1</a><br>
+                <a href="#">link 2</a><br>
+                <a href="#">link 3</a>
+            </nav>
+            <main>
+                <h2>Main heading name</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id pariatur amet natus reiciendis ipsa
+                    beatae quas eius perferendis obcaecati, assumenda libero dolorum enim. Sit alias, ipsa provident
+                    assumenda accusamus vero voluptatum fugiat, illo nisi, aliquam commodi sunt nostrum error quaerat
+                    fugit adipisci earum harum. Iusto aperiam minus fuga aliquam vel voluptates magnam delectus illum,
+                    repudiandae sunt? Consequatur neque eaque adipisci ipsa ex! Quia nihil eum impedit, quisquam ab
+                    error, ratione sint, culpa fuga possimus beatae ut voluptas at. Praesentium, exercitationem?
+                    Aspernatur eum harum aliquid! Ipsam eius blanditiis dolore cupiditate optio quis, enim libero
+                    suscipit voluptates rem fugit veniam excepturi voluptatum eos repellendus sint impedit quos aperiam.
+                    Architecto, ut sint. Esse qui quidem aliquid architecto nam commodi adipisci iusto tenetur hic autem
+                    quo quod obcaecati corrupti rem, sapiente ex voluptatibus ratione.</p><br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus quia cupiditate, quis
+                    expedita explicabo similique odio, facilis praesentium fugiat reprehenderit laboriosam, molestias
+                    alias quos dicta quidem. Ducimus maiores praesentium id, qui aspernatur cum accusamus distinctio
+                    dignissimos sunt inventore laudantium tempore dolores earum itaque, illum ea modi ipsum architecto
+                    aperiam. Cupiditate.</p>
+
+            </main>
+            <div class="cuadro"></div>
+        </section>
+        <aside>
+            <h3>Related info</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, amet cum enim quaerat, nostrum et iusto
+                magnam est nobis pariatur delectus unde odio reiciendis alias repellendus ratione atque minus sequi?</p>
+        </aside>
+</body>
+
+</html>

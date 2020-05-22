@@ -1,0 +1,28 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: 20vh 60vh 20vh;
+    grid-template-areas: "header header"
+    "menu cuerpo"
+    "footer footer";
+}
+.header{
+    background-color: #fec1cc;
+    grid-area: header;
+    grid-column: span 12;
+}
+.menu{
+    background-color: #4a0e80;
+    grid-area: menu;
+    grid-column: span 4;
+}
+.cuerpo{
+    background-color: #cb5c5e;
+    grid-area: cuerpo;
+    grid-column: span 8;
+}
+.footer{
+    background-color: #aed8e5;
+    grid-area: footer;
+    grid-column: span 12;
+}

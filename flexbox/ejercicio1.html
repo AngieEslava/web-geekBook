@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX y FLEX DIRECTION</title>
+</head>
+<!-- Crear un contenedor flex de 500px por 500px y con 6 o más elementos.
+Hacer que se distribuyan en horizontal o vertical
+Indicar cuál es el eje principal
+ -->
+ <style>
+     .container{
+         display: flex;
+         flex-direction: column;
+         
+     }
+     section{
+        border: 10px black;
+        border-style: solid;
+        height: 500px;
+        width: 500px;
+        background-color: aquamarine;
+       
+     }
+ </style>
+
+<body>
+    <article class="container">
+        <section>contenido, el eje principal es y</section>
+        <section>contenido, el eje principal es y</section>
+        <section>contenido, el eje principal es y</section>
+        <section>contenido, el eje principal es y</section>
+        <section>contenido, el eje principal es y</section>
+        <section>contenido, el eje principal es y</section>
+    </article>
+</body>
+</html>

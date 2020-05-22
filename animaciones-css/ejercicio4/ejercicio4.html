@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+</head>
+<style>
+    .container {
+        max-width: 480px;
+        min-height: 270px;
+        background-image: url(./gato.jpg);
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    h1 {
+        position: absolute;
+        top: 50%;
+        color: rgba(65, 12, 190, 0.788);
+        animation-duration: 5s;
+        animation-name: intro;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-shadow: 1px 3px 4px black;
+        font-size: 50px;
+
+    }
+
+    @keyframes intro {
+        from {
+            top: 0;
+            animation-fill-mode: forwards;
+        }
+
+        to {
+            top: 50%;
+            opacity: 1;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>Mi Lu</h1>
+    </div>
+</body>
+
+</html>

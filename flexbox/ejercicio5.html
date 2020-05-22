@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX/GROW/SHRINK/BASIS</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    header {
+        background-color: blueviolet;
+    }
+    main {
+        background-color: blanchedalmond;
+        min-height: 100vh;
+        flex-grow: 2;
+        flex-basis: auto;
+    }
+    footer {
+        background-color: cornflowerblue;
+        flex-shrink: 3;
+        bottom: 0;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>header</h1>
+    </header>
+    <main>
+        <h1>main</h1>
+    </main>
+    <footer>
+        <h1>footer</h1>
+    </footer>
+</body>
+</html>

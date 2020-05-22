@@ -1,0 +1,61 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.form-face{
+    background-color: azure;
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 415px;
+}
+.question{
+  margin-left: 3px; 
+  color: rgb(0, 0, 131); 
+  font-size: 13px;
+}
+input{
+    margin: 5px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.maxwidth {
+    width: 400px;
+}
+select{
+    padding: 5px;
+    margin: 3px;
+}
+.birthday{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.politica{
+    font-size: 12px;
+}
+button{
+    padding: 5px 30px 5px 30px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow:  gray;
+    text-shadow: gray;
+}
+.reset{
+    padding: 5px 30px 5px 30px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow:  gray;
+    text-shadow: gray; 
+}
+h1{
+    font-size: 35px;
+}
